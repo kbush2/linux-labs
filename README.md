@@ -1,58 +1,36 @@
-# Lab 1 — Linux User & Group Management (RHEL 9)
+# Linux Labs — RHCSA Prep & SysAdmin Practice
 
-**Goals:**  
-- Create and manage local users.  
-- Set and update passwords.  
-- Create groups and manage memberships.  
-- Configure password expiration policies.  
-- Verify users and groups in system files.  
+Hands-on RHEL 9 labs documented with commands and screenshots.  
+Built by a U.S. Army veteran pivoting into IT Helpdesk → Sysadmin → Cloud/Security.  
 
 ---
 
-## What I Did
-- Created a new user with `useradd`.  
-- Set a password with `passwd`.  
-- Created a group with `groupadd`.  
-- Added a user to the group with `usermod -aG`.  
-- Created another user with options (`-m -s /bin/bash`).  
-- Deleted a user with `userdel -r`.  
-- Verified password expiration with `chage`.  
-- Checked `/etc/passwd` and `/etc/group` to confirm results.  
+## 📂 Labs
+
+- **Lab 1 — User & Group Management (RHEL 9)**  
+  👉 [Open Lab 1](./lab1-user-group-management)  
+  Goals: Create/manage users, set passwords, create groups, add users to groups, configure password policies, verify accounts.  
+
+(More labs coming soon: file permissions, ACLs, storage & LVM, SELinux, systemd, networking, etc.)
 
 ---
 
-## Evidence
+## 🔑 Why This Repo?
 
-### Step 1 — Create a New User
-![Step 1 — Create User](step1.png)
-
-### Step 2 — Set a Password
-![Step 2 — Set Password](step2.png)
-
-### Step 3 — Create a Group
-![Step 3 — Create Group](step3.png)
-
-### Step 4 — Add User to the Group
-![Step 4 — Add User to Group](step4.png)
-
-### Step 5 — Create Another User with Options
-![Step 5 — Create User with Options](step5.png)
-
-### Step 6 — Delete a User
-![Step 6 — Delete User](step6.png)
-
-### Step 7 — Password Expiration
-![Step 7 — Password Expiration](step7.png)
-
-### Step 8 — Verify All Users & Groups
-![Step 8 — Verify Users & Groups](step8.png)
+- Demonstrates **hands-on Linux administration** aligned with RHCSA exam objectives.  
+- Each lab shows **commands + screenshots for verification**.  
+- Highlights ability to **document technical workflows clearly** for both engineers and recruiters.  
 
 ---
 
-## Skills Demonstrated
-- Linux user administration (`useradd`, `passwd`, `userdel`).  
-- Linux group administration (`groupadd`, `usermod`).  
-- Password and policy management (`chage`).  
-- Verification of system accounts and groups (`/etc/passwd`, `/etc/group`).  
-- Sysadmin fundamentals aligned with **RHCSA exam objectives**.  
+## 🔗 Profiles
+
+- GitHub: [github.com/kbush2](https://github.com/kbush2)  
+- LinkedIn: (add your LinkedIn link here)  
+
+---
+
+## 🧰 Tech Stack
+
+RHEL 9 · Bash · systemd · SELinux · LVM · SysAdmin
 
