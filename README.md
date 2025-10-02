@@ -9,6 +9,7 @@ Built by a U.S. Army veteran pivoting into **IT Helpdesk → Sysadmin → Cloud/
 
 - **Lab 1 — User & Group Management**  
   👉 [Open Lab 1](./lab1-user-group-management)
+  
   Topics: `useradd`, `passwd`, `groupadd`, `usermod -aG`, `userdel -r`, `chage`, `/etc/passwd`, `/etc/group`
 
 *(More labs coming soon: File permissions, ACLs, storage & LVM, SELinux, systemd, networking, etc.)*
